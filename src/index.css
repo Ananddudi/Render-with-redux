@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hoverinderline:hover {
+  text-decoration: underline solid white 5%;
+  transition-duration: 0.3s;
+  text-underline-offset: 0.25rem;
+}
+:root::-webkit-scrollbar {
+  width: 20px;
+}
+
+:root::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+:root::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
