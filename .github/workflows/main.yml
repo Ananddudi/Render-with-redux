@@ -1,5 +1,7 @@
 on: 
   push:
+    origin:
+      master
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
